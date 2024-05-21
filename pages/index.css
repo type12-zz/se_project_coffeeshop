@@ -1,0 +1,59 @@
+/* UNIVERSAL RESET */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* CONTAINER */
+.page {
+    font-family: "Inter", Arial, sans-serif;
+    font-size: 16px;
+    line-height: 20px;
+    min-width: 1100px;
+    max-width: 1600px;
+    margin: 0 auto;
+}
+
+/* --HEADER SECTION-- */
+.header {
+    display: flex;
+    flex-direction: column;
+    font-family: "Intern";
+    height: 100vh;
+    min-height: 720px;
+    max-height: 800px;
+    padding: 30px 80px 40px;
+    position: relative;
+
+    background-image: url("../images/background_header.svg");
+}
+
+.nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.nav__logo {
+    width: 80px;
+}
+
+.nav__links {
+    display: flex;
+    flex-direction: row;
+    column-gap: 20px;
+    list-style-type: none;
+}
+
+/* Nav link <a> */
+.nav__link {
+    text-decoration: none;
+    list-style-type:none;
+    color: black;
+}
+
+.header__title {
+    color: #1f69c9;
+    width: 400px;
+}
