@@ -111,7 +111,34 @@
         <!---------------------------------------------------->
         <!--                 MAIN RESERVATION               -->
         <!---------------------------------------------------->
-        <section class="reservation" id="book_table"></section>
+        <section class="reservation" id="book_table">
+          <div class="form">
+             <h2 class="reservation__title">Book a table</h2>
+            <form  action="POST" class=" form reservation__form">
+                <fieldset class="form__fieldset">
+                  <label for="name" class="form__label">Name</label>
+                  <input type="text" name="name" id="name" class="form__input" placeholder="Name Surname" required>
+
+                  <label for="number-of-guests" class="form__label">Number of guests</label>
+                  <input type="number" class="form__input" name="number-of-guests" min="1" max="8" id="number-of-guest" placeholder="1-8" required>
+
+                  <label for="date-time" class="form__label">Date & time</label>
+                  <input type="datetime-local" class="form__input"name="date-time" id="date-time" required>
+
+                  <label for="email" class="form__label">Email</label>
+                  <input type="email" class="form__input" name="email" id="email" placeholder="email@email.com" required>
+
+                  <button type="submit" class="form__button">Book a table</button>
+
+                  <div>
+                    <input type="checkbox" name="checkbox" class="form__checkbox" id="checkbox" required>
+                    <label for="checkbox" class="form__label">I agree with the terms of use</label>
+                  </div>
+                </fieldset>
+              </form>
+          </div>
+         
+        </section>
         <!---------------------------------------------------->
         <!--                 MAIN MENU                      -->
         <!---------------------------------------------------->
