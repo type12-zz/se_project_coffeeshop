@@ -1,0 +1,111 @@
+.header {
+    display: flex;
+    flex-direction: column;
+    font-family: "Inter", Arial, sans-serif;
+    height: 100vh;
+    min-height: 720px;
+    max-height: 800px;
+    padding: 30px 80px 40px;
+    position: relative;
+    background-image: url("../images/background_header.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    box-sizing: border-box;
+}
+
+.nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.nav__logo {
+    width: 105px;
+    height:39px;
+    position: relative;
+    top: 0;
+    left: -30px;
+}
+
+.nav__links {
+    display: flex;
+    flex-direction: row;
+    column-gap: 20px;
+    list-style-type: none;
+    font-family: "Inter", Arial, sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+}
+
+/* Nav link <a> */
+.nav__link {
+    text-decoration: none;
+    list-style-type:none;
+}
+
+
+.header__title {
+    font-family: "Inter", Arial, sans-serif;
+    font-weight: 500;
+    font-size: 60px;
+    line-height: 72px;
+    letter-spacing: -0.6px;
+    padding: 183px 0 0 0;
+    margin: 0;
+    z-index: 1;
+}
+
+.header__span-accent {
+    display: block;
+    font-family: "Noto Serif", 'Times New Roman';
+    font-style: italic;
+    font-size: 60px;
+    line-height: 72px;
+    color: #2F80ED;
+}
+
+.header__description {
+    max-width: 683px;
+    font-family: "Noto Serif", 'Times New Roman';
+    font-size: 20px;
+    line-height: 30px;
+    padding: 28px 0 0 0;
+    margin: 0;
+    z-index: 0;
+}
+
+.header__image {
+    position: absolute;
+    width: 646px;
+    height: 568px;
+    top: 124px;
+    right: 5px;
+    margin: 0;
+    padding: 0;
+}
+
+.header__footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-family: "Inter", Arial, sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    color: #838383;
+    margin-top: auto;
+    align-items:center;
+}
+
+.header__paragraph{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: auto;
+}
+
+.header__hours {
+    list-style-type: none;
+}
