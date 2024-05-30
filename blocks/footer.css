@@ -41,18 +41,26 @@
 }
 
 .footer__social-icon {
+    display: inline-block;
     width: 16px;
     height: 16px;
 }
 
 .footer__social-link {
+    display: inline-block;
     font-family: "Inter";
     font-style: normal;
     font-weight: normal;
     font-size: 16px;
     line-height: 20px;
+    text-decoration: none;
     margin-left: 10px;
     margin-bottom: 16px;
+    color:#ffffff;
+}
+
+.footer__social-link:hover {
+    color: #C1C1C1;
 }
 
 .footer__copyright {

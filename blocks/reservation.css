@@ -1,8 +1,6 @@
 .reservation {
     display: flex;
     justify-content: center;
-    /* min-height: 720px; */
-    /* max-height: 800px; */
     margin-left: 0;
     background-color: #D9E7FF;
     background-image: url('../images/background_reservation.svg');
@@ -80,6 +78,8 @@ input[type="datetime-local"]::placeholder {
     color: #ffffff;
     margin: 32px 0;
     height: 60px;
+    transition: opacity 1.1s ease-in-out;
+    opacity: 1;
 }
 
 .form__button:hover {

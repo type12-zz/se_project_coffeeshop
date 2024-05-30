@@ -43,6 +43,11 @@
 .nav__link {
     text-decoration: none;
     list-style-type:none;
+    transition: color .7s ease-in-out;
+}
+
+.nav__link:hover {
+    color: #2F80ED
 }
 
 
