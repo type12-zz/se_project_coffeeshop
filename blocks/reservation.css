@@ -44,6 +44,10 @@
     
 }
 
+.form__label::after {
+    content: '*';
+}
+
 .form__input {
     font-family: Inter;
     font-style: normal;
@@ -62,7 +66,7 @@
     margin: 0 auto;
 }
 
-input[type="datetime-local"]::placeholder {
+.form__input::placeholder {
     padding: 8px 10px;
     margin: 0 auto;
 }
