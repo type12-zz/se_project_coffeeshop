@@ -35,11 +35,11 @@
 .about__content {
     display: flex;
     flex-direction: column;
-    position: relative;
     max-width: 660px;
-    top: 119px;
-    right: 80px;
-    margin-bottom: 173px;
+    padding: 119px 80px 173px 0;
+    /* position: relative; */
+    /* top: 119px;
+    right: 80px; */
 }
 
 .about__paragraph {
