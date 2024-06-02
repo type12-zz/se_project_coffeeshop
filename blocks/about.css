@@ -37,13 +37,14 @@
     flex-direction: column;
     max-width: 660px;
     padding: 119px 80px 173px 0;
+    box-sizing: content-box;
     /* position: relative; */
     /* top: 119px;
     right: 80px; */
 }
 
 .about__paragraph {
-    font-family: "Noto Serif",'Times New Roman';
+    font-family: "Noto Serif",'Times New Roman', sans-serif;
     font-style: normal;
     font-weight: normal;
     font-size: 20px;
